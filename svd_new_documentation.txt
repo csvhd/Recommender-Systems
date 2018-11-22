@@ -1,0 +1,15 @@
+Help on module svd_new:
+
+NAME
+    svd_new
+
+FILE
+    /home/csvhd/Desktop/IR_2/svd_new.py
+
+FUNCTIONS
+    main()
+
+DATA
+    precision_k = 1000
+
+

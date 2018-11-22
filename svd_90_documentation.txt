@@ -1,0 +1,15 @@
+Help on module svd_90:
+
+NAME
+    svd_90
+
+FILE
+    /home/csvhd/Desktop/IR_2/svd_90.py
+
+FUNCTIONS
+    main()
+
+DATA
+    precision_k = 1000
+
+

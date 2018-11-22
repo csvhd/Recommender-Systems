@@ -1,0 +1,15 @@
+Help on module collab_global:
+
+NAME
+    collab_global
+
+FILE
+    /home/csvhd/Desktop/IR_2/collab_global.py
+
+FUNCTIONS
+    main()
+
+DATA
+    precision_k = 1000
+
+

@@ -1,0 +1,9 @@
+Libraries needed :
+
+PANDAS - for csv file parsing
+NUMPY - for all the mathematical calculations
+RANDOM - in CUR for the random with probabillity distribution 
+
+Steps for running the code :
+
+Change the path to ratings.dat in the python code, wherever you have saved the ml-1m folder(preferably in the same folder) and run the python script for each method

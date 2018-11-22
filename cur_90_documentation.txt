@@ -1,0 +1,15 @@
+Help on module cur_90:
+
+NAME
+    cur_90
+
+FILE
+    /home/csvhd/Desktop/IR_2/cur_90.py
+
+FUNCTIONS
+    main()
+
+DATA
+    precision_k = 1000
+
+

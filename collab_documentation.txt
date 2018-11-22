@@ -1,0 +1,15 @@
+Help on module collab:
+
+NAME
+    collab
+
+FILE
+    /home/csvhd/Desktop/IR_2/collab.py
+
+FUNCTIONS
+    main()
+
+DATA
+    precision_k = 1000
+
+

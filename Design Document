@@ -1,0 +1,57 @@
+TEAM MEMBERS :
+
+1) Chetan Vibhandik -- 2016A7PS0117H
+
+2) Madhura Banerjee -- 2016A7PS0087H
+
+3) Soumnya Kaushik -- 2016A7PS0129H
+
+
+
+PACKAGES USED :
+
+1) PANDAS -- For parsing the csv data
+
+2) NumPy -- For the mathematical matrix calculations
+
+3) RANDOM -- For CUR to get random values of a certain probability distribution
+
+4) TIME -- For calculating the runtime of the code
+
+
+DATASET USED :
+
+The dataset used in the code was the MovieLens 1 million ratings dataset with 6040 users and 3952 movies 
+
+
+The utility matrix thus created was a sparse matrix of around 24 million entries
+
+
+TECHNIQUES USED :
+
+1) Collabarative -- The similarity between the users was calculated using Cosine/Pearson Similarity
+
+2) Collabarative with Global baseline -- The similarity between the users was calculated using Cosine/Pearson Similarity with user and movie biases
+
+3) SVD -- The matrix was predicted using the SVD method without any energy decomposition
+
+4) SVD(90% energy) -- The matrix was predicted using the SVD method with the three matrices reduced to 90% energy from the original
+
+5) CUR -- The matrix was predicted using the CUR method without any energy decompostion ( 1000 columns and rows were used for the CUR decompositon with no duplicates )
+
+6) CUR(90% energy) -- The matrix was predicted using the CUR method with the U matrix decomposed to its SVD which was then reduced to 90% of its total energy
+
+
+
+METHODS USED FOR ERROR/PERFORMANCE METRICS :
+
+1) Root mean squared error
+
+2) Precision at top K ( Top 5000(For CUR,SVD) and Top 200(For Collab) recommended ratings were used for the calculation )
+
+3) Spearman Rank Correlation
+
+4) Time taken for the prediction ( This only consisted of the actual calculation part of the code and not the parsing and preprocessing of the data matrices)
+
+The test data set for all these error metrics was the top left 1000 * 1000 part of the total dataest
+
